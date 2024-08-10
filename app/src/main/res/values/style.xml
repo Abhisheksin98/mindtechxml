@@ -1,0 +1,15 @@
+<resources>
+    <!-- Add this style for rounded corners -->
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item> <!-- Adjust the corner size as needed -->
+    </style>
+
+    <style name="CustomFabStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/light_blue_600</item>
+        <item name="fabSize">normal</item> <!-- or mini -->
+        <item name="borderWidth">2dp</item>
+        <item name="elevation">8dp</item>
+        <!-- Customize other attributes as needed -->
+    </style>
+</resources>
